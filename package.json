@@ -1,6 +1,6 @@
 {
-  "name": "componentlibrary",
-  "version": "0.0.1",
+  "name": "@Brayan-Prieto/componentlibrary",
+  "version": "0.0.2",
   "description": "",
   "homepage": "https://github.com/Brayan-Prieto/componentLibrary#readme",
   "bugs": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brayan-Prieto/componentLibrary.git"
+    "url": "ttps://github.com/Brayan-Prieto/componentLibrary.git"
   },
   "type":"module",
   "license": "ISC",
@@ -32,5 +32,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Brayan-Prieto"
+  }
 }
